@@ -14,5 +14,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Galaxy S6" \
     TARGET_DEVICE="Galaxy S6"
 
-PRODUCT_NAME := cm_zerofltexx
+PRODUCT_NAME := lineage_zerofltexx
 PRODUCT_DEVICE := zerofltexx
