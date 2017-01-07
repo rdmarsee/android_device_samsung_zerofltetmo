@@ -10,3 +10,8 @@ ro.use_data_netmgrd=false
 persist.data.netmgrd.qos.enable=false
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10
+
+# USB mode
+persist.service.adb.enable=1                                                    
+persist.service.debuggable=1
+persist.sys.usb.config=adb
