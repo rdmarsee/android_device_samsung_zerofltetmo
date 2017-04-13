@@ -24,10 +24,10 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte,zerolte,zeroltexx
+TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte,zerolte,zeroltexx,zerofltetmo
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_zerofltexx_defconfig
+TARGET_KERNEL_CONFIG := lineage_zerofltetmo_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200

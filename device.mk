@@ -15,9 +15,10 @@
 #
 
 ## (2) Also get non-open-source specific aspects if available
+## This will be changed once I have blobs for TMO variant
 $(call inherit-product-if-exists, vendor/samsung/zerofltexx/zerofltexx-vendor.mk)
 
-LOCAL_PATH := device/samsung/zerofltexx
+LOCAL_PATH := device/samsung/zerofltetmo
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
