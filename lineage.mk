@@ -1,5 +1,5 @@
 # Initialise device config
-$(call inherit-product, device/samsung/zerofltexx/full_zerofltetmo.mk)
+$(call inherit-product, device/samsung/zerofltexx/full_zerofltexx.mk)
 
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
